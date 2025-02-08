@@ -6,17 +6,24 @@ package main
 import (
 	"errors"
 	"fmt"
+	"log/slog"
 )
 
 type Person struct {
-	Name    string
-	Surname string
+	Name    string `json:"name"`
+	Surname string `json:"surname"`
 }
 
 func sayHello(p Person) error {
+	const op = "sayHello"
 	if p.Name == "" || p.Surname == "" {
-		return errors.New("Name or Surname cannot be empty")
+		slog.Warn("name or surname is empty", "op", op)
+
+		return errors.New("name or surname cannot be empty")
 	}
+
+	slog.Info("printing greeting text", "op", op)
+
 	fmt.Printf("Hi, I'm %s %s, nice to meet your eyes on this text yo!\n", p.Surname, p.Name)
 	return nil
 }
@@ -26,15 +33,14 @@ func main() {
 		Name:    "Daniel",
 		Surname: "Evteev",
 	}
-	err := sayHello(me)
-	if err != nil {
+	if err := sayHello(me); err != nil {
 		fmt.Println(err)
 	}
 }
 ```
 
 - 🔭 I’m currently working on CAD Cloud Service.
-- 🌱 I’m currently learning Go REST API & gRPC.
+- 🌱 I’m currently learning Go gRPC service (data management layer).
 - 👯 I’m looking to collaborate on Telegram.
 - 📫 How to reach me: Telegram - @snowwy_d.
 
