@@ -1,4 +1,4 @@
-### Hi, I'm Evteev Daniel! 👋
+## Hi, I'm Evteev Daniel! 👋
 
 ```go
 package main
@@ -40,14 +40,16 @@ func main() {
 ```
 
 - 🔭 I’m currently working on CAD Cloud Service.
-- 🌱 I’m currently learning Go gRPC service (data management layer).
+- 🌱 I’m currently learning Go gRPC service (functional tests & automatic deployment).
 - 👯 I’m looking to collaborate on Telegram.
 - 📫 How to reach me: Telegram - @snowwy_d.
 
-### Stack:
+## Stack:
 <p>
  <img alt="Golang" src="https://img.shields.io/badge/Go-Basics-%233388FF" />
- <img alt="Gin" src="https://img.shields.io/badge/Gin-Api-%230055EE" />
+ <img alt="Gin" src="https://img.shields.io/badge/Gin-REST_Api-%230055EE" />
+ <img alt="gRPC" src="https://img.shields.io/badge/Go-gRPC-%23AA88FF" />
+
 </p>
 <p>
   <img alt="Postgres" src="https://img.shields.io/badge/PostgreSQL-Basics-%230033CC" />
