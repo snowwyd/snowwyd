@@ -39,8 +39,8 @@ func main() {
 }
 ```
 
-- 🔭 I’m currently working on CAD Cloud Service.
-- 🌱 I’m currently learning Go gRPC service (functional tests & automatic deployment).
+- 🔭 I’m currently working on Messenger Auth Service.
+- 🌱 I’m currently learning Go processing HTTP requests (mail.ru group course).
 - 👯 I’m looking to collaborate on Telegram.
 - 📫 How to reach me: Telegram - @snowwy_d.
 
