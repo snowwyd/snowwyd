@@ -39,23 +39,32 @@ func main() {
 }
 ```
 
-- 🔭 I’m currently working on Messenger Auth Service.
-- 🌱 I’m currently learning Go processing HTTP requests (mail.ru group course).
+- 🔭 I’m currently working on Messenger Chat Service, strarting ConstructHub backend.
+- 🌱 I’m currently learning Databases with Go(VK group course).
 - 👯 I’m looking to collaborate on Telegram.
 - 📫 How to reach me: Telegram - @snowwy_d.
 
 ## Stack:
 <p>
- <img alt="Golang" src="https://img.shields.io/badge/Go-Basics-%233388FF" />
+ <img alt="Golang" src="https://img.shields.io/badge/Go-Intermediate-%233388FF" />
  <img alt="Gin" src="https://img.shields.io/badge/Gin-REST_Api-%230055EE" />
- <img alt="gRPC" src="https://img.shields.io/badge/Go-gRPC-%23AA88FF" />
+ <img alt="gRPC" src="https://img.shields.io/badge/Go-gRPC-%23AA88FF"/>
 
 </p>
 <p>
   <img alt="Postgres" src="https://img.shields.io/badge/PostgreSQL-Basics-%230033CC" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-%2BDB-%230011AA" />
+  <img alt="Mongo" src="https://img.shields.io/badge/Mongo-DB-%23006600" />	
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-%2BDB-%230011AA"/>
 </p>
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-Basics-yellow" />
   <img alt="Spring" src="https://img.shields.io/badge/Java-Spring-orange" />
+</p>
+
+## TODO:
+<p>
+  <img alt="Redis" src="https://img.shields.io/badge/Redis-%23AA1111" />
+  <img alt="Kubernetes" src="https://img.shields.io/badge/K8S-%230011AA" />
+  <img alt="CICD" src="https://img.shields.io/badge/Github-Actions%23111111" />
+  <img alt="Camunda" src="https://img.shields.io/badge/Camunda-%23FF1155" />
 </p>
