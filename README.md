@@ -46,12 +46,12 @@ func main() {
 
 🚀 **I'm currently working on**  
 - Messenger backend
-- ConstructFlow backend and CI/CD pipelines
+- ConstructFlow File microservice and deploy
 
 🧐 **Learning now**  
-- gRPC streaming
 - GitLab CI/CD
 - Apache Kafka
+- Architecture patterns
 
 📫 **Contact me**  
 - Telegram: [@snowwy_d](https://t.me/snowwy_d)
@@ -85,6 +85,7 @@ func main() {
   	<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
   	<img alt="MongoDB Atlas" src="https://img.shields.io/badge/Atlas-388039?style=for-the-badge&logo=mongodb&logoColor=white" />
 	<img alt="Gorm" src="https://img.shields.io/badge/Gorm-00ADD8?style=for-the-badge&logo=orm&logoColor=white" />
+  	<img alt="MinIO" src="https://img.shields.io/badge/MinIO-000000?style=for-the-badge&logo=minio&logoColor=white" />
   	<img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </div>
 
@@ -96,6 +97,7 @@ func main() {
   	<img alt="Swagger" src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white" />
   	<img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   	<img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+      	<img alt="GitLab" src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
 </div>
 
 <div align="center">
@@ -124,6 +126,5 @@ func main() {
   	<img alt="Apache Kafka" src="https://img.shields.io/badge/Kafka-000000?style=for-the-badge&logo=apache-kafka&logoColor=white" />
   	<img alt="Camunda BPMN" src="https://img.shields.io/badge/Camunda%20BPMN-ED1C24?style=for-the-badge&logo=camunda&logoColor=white" />
   	<img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  	<img alt="MinIO" src="https://img.shields.io/badge/MinIO-000000?style=for-the-badge&logo=minio&logoColor=white" />
   	<img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
 </div>
