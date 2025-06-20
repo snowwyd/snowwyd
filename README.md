@@ -85,7 +85,6 @@ func main() {
   	<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
   	<img alt="MongoDB Atlas" src="https://img.shields.io/badge/Atlas-388039?style=for-the-badge&logo=mongodb&logoColor=white" />
 	<img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-
 	<img alt="Gorm" src="https://img.shields.io/badge/Gorm-00ADD8?style=for-the-badge&logo=orm&logoColor=white" />
   	<img alt="MinIO" src="https://img.shields.io/badge/MinIO-000000?style=for-the-badge&logo=minio&logoColor=white" />
   	<img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
