@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Evteev Daniel!
+# Hi, I'm Evteev Daniel!
 
 ```go
 package main
@@ -10,48 +10,68 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type PersonRequest struct {
-	Name    string `json:"name" binding:"required"`
-	Surname string `json:"surname" binding:"required"`
+type greeter interface {
+	greet() string
 }
 
-type Handler struct {
-	UsecaseMock struct{ RepositoryMock struct{} }
-}
-
-func (h Handler) Greet(c *gin.Context) {
-	var req PersonRequest
-
-	c.ShouldBindJSON(&req)
-	if req.Name == "" || req.Surname == "" {
-		c.JSON(http.StatusBadRequest, gin.H{"message": "name and surname are required"})
-		return
+func newGreeter(isForStudent bool) greeter {
+	if isForStudent {
+		return &mentor{firstName: "Daniel", lastName: "Evteev"}
 	}
+	return &gitHubUser{nickname: "qyteboii a.k.a snowwyd"}
+}
 
-	greetingText := fmt.Sprintf("Hi, %s %s, I'm Evteev Daniel a.k.a snowwy, nice to meet your eyes on this text yo!", req.Name, req.Surname)
-	c.JSON(http.StatusOK, gin.H{"greeting_text": greetingText})
+type mentor struct {
+	firstName, lastName string
+}
+
+func (m *mentor) greet() string {
+	return fmt.Sprintf("Hi, I'm %s %s - your Golang mentor!", m.firstName, m.lastName)
+}
+
+type gitHubUser struct {
+	nickname string
+}
+
+func (ghu *gitHubUser) greet() string {
+	return fmt.Sprintf("Hi, I'm %s, nice to meet your eyes on this text yo!", ghu.nickname)
+}
+
+type greetRequest struct {
+	IsStudent bool `json:"is_student"`
+}
+
+func greet(c *gin.Context) {
+	var req greetRequest
+	c.ShouldBindJSON(&req)
+
+	greeter := newGreeter(req.IsStudent)
+	c.JSON(http.StatusOK, gin.H{"greeting_text": greeter.greet()})
 }
 
 func main() {
-	var handler Handler
-
 	router := gin.Default()
-	router.POST("/greet", handler.Greet)
-	
+	router.POST("/greet", greet)
+
 	if err := router.Run("localhost:809"); err != nil {
 		panic(err)
 	}
 }
 ```
 
-🚀 **I'm currently working on**  
+## Activity
+
+**I'm currently working on**  
 - Huge mastery project
 - Security Signature Utility
+- Go mentorship site
 
-🧐 **Learning now**  
-- Golang deep dive
+**Learning now**  
+- Huge Go expert roadmap
+- Obsidian features
+- GitHub Pages syntax
 
-📫 **Contact me**  
+**Contact me**  
 - Telegram: [@qyteboii](https://t.me/qyteboii)
 
 ---
