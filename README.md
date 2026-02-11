@@ -63,8 +63,8 @@ func main() {
 
 **I'm currently working on**  
 - Huge mastery project
-- Security Signature Utility
 - Go mentorship site
+- Go interviews roadmap
 
 **Learning now**  
 - Huge Go expert roadmap
