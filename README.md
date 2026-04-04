@@ -14,19 +14,8 @@ type greeter interface {
 	greet() string
 }
 
-func newGreeter(isForStudent bool) greeter {
-	if isForStudent {
-		return &mentor{firstName: "Daniel", lastName: "Evteev"}
-	}
+func newGreeter() greeter {
 	return &gitHubUser{nickname: "qyteboii a.k.a snowwyd"}
-}
-
-type mentor struct {
-	firstName, lastName string
-}
-
-func (m *mentor) greet() string {
-	return fmt.Sprintf("Hi, I'm %s %s - your Golang mentor!", m.firstName, m.lastName)
 }
 
 type gitHubUser struct {
@@ -35,10 +24,6 @@ type gitHubUser struct {
 
 func (ghu *gitHubUser) greet() string {
 	return fmt.Sprintf("Hi, I'm %s, nice to meet your eyes on this text yo!", ghu.nickname)
-}
-
-type greetRequest struct {
-	IsStudent bool `json:"is_student"`
 }
 
 func greet(c *gin.Context) {
@@ -63,16 +48,11 @@ func main() {
 
 **I'm currently working on**  
 - Huge mastery project
-- Go mentorship site
 - Go interviews roadmap
 
 **Learning now**  
-- Huge Go expert roadmap
 - Obsidian features
 - GitHub Pages syntax
-
-**Contact me**  
-- Telegram: [@qyteboii](https://t.me/qyteboii)
 
 ---
 
