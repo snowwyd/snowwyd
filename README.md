@@ -48,7 +48,6 @@ func main() {
 
 **I'm currently working on**  
 - Huge mastery project
-- Go interviews roadmap
 
 **Learning now**  
 - Obsidian features
